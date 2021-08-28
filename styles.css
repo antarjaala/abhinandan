@@ -4,17 +4,20 @@ body {
 }
 
 #title {
-  /* padding-top:4%; */
+  /* padding-top:3%; */
   background-color: #7D5A5A;
   color: #F1D1D1;
   background-image: url(images/socialservice.jpg);
 }
-
+/* .titlename{
+  position: relative;
+  padding: 5% 15% 5% 5%;
+} */
 .top-container{
   position: relative;
   padding: 3% 25% 20% 3%;
   width:80%;
-  margin: auto;
+  /* margin: auto; */
 
 }
 
@@ -62,12 +65,15 @@ h1,h2,h3 {
   /* margin-left: 350px; */
 } */
 
-.navbar-brand {
+/* .navbar-brand {
   font-size: 3rem;
   font-weight: bold;
   margin-left: -100%;
+} */
+.titlename{
+  /* margin-left:5% */
+  padding:2% auto 2% 50%;
 }
-
 .nav-item {
   padding: 0 5px;
 }
