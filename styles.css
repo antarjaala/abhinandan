@@ -1,4 +1,4 @@
-/* changed */
+
 body {
   font-family: 'Cardo', serif;
 }
@@ -20,7 +20,7 @@ body {
   padding-right:9%;
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-size: 3rem;
@@ -94,7 +94,9 @@ h1,h2,h3 {
   height:150px;
   border-radius: 10%;
 }
-
+.testimonial-text{
+  font-size:2rem;
+}
 #press {
   background-color: #7D5A5A;
   text-align: center;
@@ -161,7 +163,9 @@ h1,h2,h3 {
 .titlename {
   padding-left: 9%;
 }
-
+.newssec{
+  color: #F1D1D1;
+}
 
 @media (max-width: 1360px) {
   body {
