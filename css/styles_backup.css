@@ -1,0 +1,86 @@
+body {
+  font-family: 'Cardo', serif;
+}
+
+#title {
+  background-color: #e05038;
+  color:white;
+  padding-bottom: 100px;
+  height: 700px;
+}
+#titlename{
+  color:gray;
+}
+.first-container{
+  padding-top:120px;
+  
+}
+h1,h2,h3 {
+  /* font-family: 'Oswald', sans-serif; */
+  /* text-transform: uppercase; */
+  color: #fff;
+  font-family: 'Jost', sans-serif;
+
+  /* font-size: 3rem; */
+}
+#title h1{
+  font-size: 4rem;
+  font-weight:bold;
+  width:75%;
+}
+#title h3{
+  width:75%;
+}
+
+.navbar-top{
+  padding-right: 70%;
+}
+.donate-button{
+  font-weight: bold;
+  font-size: 0.9rem;
+  color:#696969;
+  text-align:left;
+  margin-top:150px;
+}
+
+#donate {
+  padding: 100px;
+  text-align: center;
+}
+#donate p{
+  text-align: center;
+}
+
+#contact {
+  background-color: #e05038;
+  text-align: center;
+  padding: 3%;
+  color: white;
+}
+
+#contact h3 {
+  /* font-family: 'Montserrat-Black'; */
+  width:60%;
+  font-size: 3rem;
+  color: #fff;
+  margin:auto;
+  padding-bottom: 3%;
+
+}
+
+#contact .download-button {
+  margin: 1% 2% 3% 1%;
+}
+
+#footer {
+  margin: 2%;
+  text-align: center;
+}
+
+.footer-icons {
+  padding: .5%;
+}
+
+.fa-facebook-f{
+  color:white;
+}
