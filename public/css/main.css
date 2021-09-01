@@ -1,0 +1,199 @@
+
+body {
+  font-family: 'Cardo', serif;
+}
+
+#title {
+  background-color: #7D5A5A;
+  color: #F1D1D1;
+  background-image: url(images/socialservice.jpg);
+}
+
+.top-container{
+  position: relative;
+  padding: 3% 25% 20% 3%;
+  width:80%;
+
+}
+
+.navstyle{
+  padding-right:9%;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.donate-button{
+  font-weight: bold;
+  font-size: 0.9rem;
+  color:#F1D1D1;
+  background-color:#7D5A5A;
+  border-color:#7D5A5A;
+  text-align:left;
+  margin-top:30px;
+}
+
+#features h1,h2,h3{
+  color:#7D5A5A;
+  text-align: center;
+}
+
+#features h3{
+  font-size: 2rem;
+}
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 3%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #F1D1D1;
+  position: relative;
+  z-index: 1;
+
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  background-color: #7D5A5A;
+  color: #F1D1D1;
+  text-align: center;
+}
+#testimonials h2{
+  color:#F1D1D1;
+}
+.testimonial-image {
+  width: 300px;
+  height:150px;
+  border-radius: 10%;
+}
+
+#press {
+  background-color: #7D5A5A;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#donate {
+  padding: 100px;
+  text-align: center;
+  background-color:#F1D1D1;
+  color:#7D5A5A;
+}
+
+.cards-division {
+  margin-left: 20%;
+}
+
+.donate-column {
+  padding: 3% 4%;
+}
+
+#donate p{
+  text-align: center;
+}
+
+#contact {
+  background-color: #F1D1D1;
+  text-align: center;
+  padding: 3%;
+  color: #7D5A5A;
+}
+
+#contact h3 {
+  width:60%;
+  font-size: 3rem;
+  margin:auto;
+  padding-bottom: 3%;
+
+}
+
+#contact .download-button {
+  margin: 1% 2% 3% 1%;
+}
+
+#footersection {
+  text-align: center;
+  background-color: #7D5A5A;
+  color: #F1D1D1;
+}
+
+.footer-icons {
+  padding: .5%;
+}
+
+.titlename {
+  padding-left: 9%;
+}
+.newssec{
+  color: #F1D1D1;
+}
+
+.testimonial-text{
+  font-size:2rem;
+}
+
+@media (max-width: 1360px) {
+  body {
+    text-align: center;
+  }
+
+  /* .donate-button{
+    margin-bottom: 10%;
+  }
+  .navbar {
+    margin-left: 250px;
+  } */
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+    body{
+      text-align: center;
+    }
+
+    /* .donate-button{
+      margin-bottom: 10%;
+    }
+    .navbar {
+      margin-left: 250px;
+    } */
+}
