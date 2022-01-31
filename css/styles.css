@@ -57,6 +57,8 @@ h1,h2,h3 {
   font-size: 2rem;
 }
 
+
+
 /* .navbar {
   /* padding:10 10 10 10; */
   /* margin-left: 350px; */
@@ -195,6 +197,24 @@ h1,h2,h3 {
   color:#F1D1D1;
 }
 
+#spoortidhama {
+  /* padding-top:3%; */
+  background-color: #7D5A5A;
+
+
+  /* background-image: url('images/spoortidhama-1.png'); */
+}
+.h2style,.h3style{
+  color:#F1D1D1;
+}
+.h3style{
+  font-size:2rem;
+}
+
+
+a:link {
+  color: #F1D1D1;
+}
 
 @media (max-width: 1360px) {
   #title {
