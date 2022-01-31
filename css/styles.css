@@ -45,7 +45,7 @@ h1,h2,h3 {
   background-color:#7D5A5A;
   border-color:#7D5A5A;
   text-align:left;
-  margin-top:30px;
+  margin-top:50%;
 }
 
 #features h1,h2,h3{
@@ -69,6 +69,7 @@ h1,h2,h3 {
 }
 
 .nav-item {
+  font-weight: bold;
   padding: 0 5px;
 }
 
