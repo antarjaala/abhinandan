@@ -212,9 +212,7 @@ h1,h2,h3 {
 }
 
 
-a:link {
-  color: #F1D1D1;
-}
+
 
 @media (max-width: 1360px) {
   #title {
@@ -225,7 +223,7 @@ a:link {
     width: 100%;
     /* transform: rotate(0deg); */
     position: static;
-    margin-bottom:10%;
+    /* margin-bottom:10%; */
   }
 
   .cards-division {
@@ -246,7 +244,12 @@ a:link {
     #title {
       text-align: center;
     }
-
+    #swami-img {
+      width: 100%;
+      /* transform: rotate(0deg); */
+      position: static;
+      /* margin-bottom:10%; */
+    }
     /* #swami-img {
       width: 100%;
       position: static;
