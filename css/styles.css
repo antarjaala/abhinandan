@@ -7,7 +7,7 @@ body {
   /* padding-top:3%; */
   background-color: #7D5A5A;
   color: #F1D1D1;
-  background-image: url(images/socialservice.jpg);
+  /* background-image: url(images/socialservice.jpg); */
 }
 
 .top-container{
@@ -36,6 +36,22 @@ h1,h2,h3 {
   text-transform: uppercase;
   /* color: #F1D1D1; */
   font-size: 3rem;
+}
+
+#title h3{
+  color: #F1D1D1;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: none;
+}
+
+#spoortidhama h3{
+  color: #F1D1D1;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: none;
 }
 
 .donate-button{
@@ -222,8 +238,9 @@ h1,h2,h3 {
   #swami-img {
     width: 100%;
     /* transform: rotate(0deg); */
-    position: static;
+    /* position: static; */
     /* margin-bottom:10%; */
+    text-align: center;
   }
 
   .cards-division {
@@ -247,7 +264,8 @@ h1,h2,h3 {
     #swami-img {
       width: 100%;
       /* transform: rotate(0deg); */
-      position: static;
+      position: center;
+
       /* margin-bottom:10%; */
     }
     /* #swami-img {
@@ -264,5 +282,8 @@ h1,h2,h3 {
     }
     .navbar {
       margin-left: 250px;
+    }
+    #spoortidhama{
+      margin-bottom:5%;
     }
 }
