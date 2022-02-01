@@ -229,7 +229,7 @@ h1,h2,h3 {
 
 
 
-
+/* 
 @media (max-width: 1360px) {
   #title {
     text-align: center;
@@ -237,9 +237,6 @@ h1,h2,h3 {
 
   #swami-img {
     width: 100%;
-    /* transform: rotate(0deg); */
-    /* position: static; */
-    /* margin-bottom:10%; */
     text-align: center;
   }
 
@@ -263,16 +260,9 @@ h1,h2,h3 {
     }
     #swami-img {
       width: 100%;
-      /* transform: rotate(0deg); */
       position: center;
 
-      /* margin-bottom:10%; */
     }
-    /* #swami-img {
-      width: 100%;
-      position: static;
-      margin-bottom:10%;
-    } */
 
     .cards-division {
       margin-left: 10%;
@@ -286,4 +276,4 @@ h1,h2,h3 {
     #spoortidhama{
       margin-bottom:5%;
     }
-}
+} */
