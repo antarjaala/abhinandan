@@ -288,8 +288,16 @@ h1,h2,h3 {
       text-align: center;
     }
     img {
-      width: 50%;
-      position: center;
+      min-height:100%;
+      min-width: 100%;
+      height: auto;
+      width: auto;
+      position: absolute;
+      top:-100%;
+      botttom:-100%;
+      left:-100%;
+      right:-100%;
+      margin:auto;
 
     }
 }
