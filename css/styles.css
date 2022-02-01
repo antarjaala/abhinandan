@@ -289,7 +289,7 @@ h1,h2,h3 {
     }
 
     #spoortidhama.img {
-      min-height:100%;
+      /* min-height:100%;
       min-width: 100%;
       height: auto;
       width: auto;
@@ -298,7 +298,10 @@ h1,h2,h3 {
       botttom:-100%;
       left:-100%;
       right:-100%;
-      margin:auto;
-
+      margin:auto; */
+      display:block;
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
     }
 }
